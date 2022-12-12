@@ -1,4 +1,15 @@
-import React from 'react';
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import{ createNativeStackNavigator } from "@react-navigation/native-stack";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import {MaterialCommunityIcons} from '@expo/vector-icons'
+//importar Pantallas
+import Home from "../../../screens/Home";
+import Settings from "../../../screens/Settings";
+import Actions from "../../../screens/Actions";
+import News from "../../../screens/News";
+import Portafolio from "../../../screens/Portafolio";
+import Prices from "../../../screens/Prices";
 
 import TabBar from "../TabBar";
 
